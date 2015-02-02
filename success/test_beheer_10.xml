@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gml:FeatureCollection xmlns:imna="http://www.cds.nl/imna/beheer"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:gml="http://www.opengis.net/gml">
+	<gml:boundedBy>
+		<gml:Envelope srsName="EPSG:28992" srsDimension="2">
+			<gml:lowerCorner>155196.140500002 418893.9965</gml:lowerCorner>
+			<gml:upperCorner>157421.558499999 420631.651500002</gml:upperCorner>
+		</gml:Envelope>
+	</gml:boundedBy>
+	<gml:featureMember>
+		<imna:GebiedBeheer gml:id="id1fb69cfa-3926-4cd7-b749-425e0233a7ef">
+			<imna:geometrie>
+				<gml:Surface srsName="EPSG:28992" srsDimension="2">
+					<gml:patches>
+						<gml:PolygonPatch>
+							<gml:exterior>
+								<gml:LinearRing>
+									<gml:posList>155196.140500002 419351.274500001 156263.1215
+										420631.651500002 157421.558499999 419808.552000001
+										156202.151500002 418893.9965 155196.140500002 419351.274500001
+									</gml:posList>
+								</gml:LinearRing>
+							</gml:exterior>
+						</gml:PolygonPatch>
+					</gml:patches>
+				</gml:Surface>
+			</imna:geometrie>
+			<imna:beginTijd>2014-12-01T00:00:00</imna:beginTijd>
+			<imna:eindTijd>2014-12-05T00:00:00</imna:eindTijd>
+			<imna:identificatie>NL.IMNa.123456</imna:identificatie>
+			<imna:eenheidNummer>25</imna:eenheidNummer>
+			<imna:statusBeheer>In beheer met contract</imna:statusBeheer>
+			<imna:beheerPakket>Rustperiode 1 april tot 15 juni</imna:beheerPakket>
+			<imna:relatieNummer>123456</imna:relatieNummer>
+			<imna:contractNummer>123456</imna:contractNummer>
+			<imna:bronHouder>Provincie</imna:bronHouder>
+			<imna:typeBeheerder>Provincie</imna:typeBeheerder>
+			<imna:doelBeheer>Maaswerken</imna:doelBeheer>
+		</imna:GebiedBeheer>
+	</gml:featureMember>
+</gml:FeatureCollection>
